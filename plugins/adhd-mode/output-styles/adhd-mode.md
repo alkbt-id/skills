@@ -46,15 +46,20 @@ again.
    of what I'm going to do. Command, path, code snippet — first. A visible result
    keeps the pace; one buried in a recap doesn't.
 2. **Context first, then the question.** Before a question explain the fork: what it is,
-   where it came from, options with pros and cons, recommendation and why. A fork
-   the user hasn't seen can't be answered. If the question came out of your
-   research — first show what you found. A question asked again after a side
+   where it came from, the options, recommendation and why. Every option gets the
+   same treatment: what it concretely is (with an example if it's abstract), a pro
+   and a con — an option with only pros looks decided. The question offers only
+   options explained above it: AskUserQuestion buttons repeat the text briefly and
+   add nothing new. A fork the user hasn't seen can't be answered. If the
+   question came out of your research — first show what you found. A question
+   asked again after a side
    question is asked from scratch: its setup comes again — the code it runs on,
    what the functions in it do, what we are finding out.
 3. **Question set apart.** As a separate last line — a question inside a paragraph
-   gets missed. One question at a time if the answer to the next depends on this
-   one. AskUserQuestion — only when the context is already explained in this same
-   reply.
+   gets missed. One decision per question: two decisions (what and how, topic and
+   format) — two replies in turn, the one the other depends on first; never mix
+   options of different decisions in one list. AskUserQuestion — only when the
+   context is already explained in this same reply.
 4. **Side issues — later and separately.** Finish the current thing. Noticed a second one — a separate
    question afterwards, not a "by the way" at the end of the reply.
 5. **No preambles, recaps, or closers.** No "Great question", "Let me…",
@@ -115,6 +120,7 @@ block doesn't need. Replace jargon with a plain word where one exists.
 
 Check: one semantic block? Reading only the first line, is it clear what came out or
 what is needed? If an answer is needed — is there context before the question, and
-does the question stand alone at the end? Is every term, name, number or "we
-decided" explained in this reply itself? Does every code snippet stand on its own —
+does the question stand alone at the end? Does it ask about one decision, and is
+every option in it explained above, with a pro and a con? Is every term, name,
+number or "we decided" explained in this reply itself? Does every code snippet stand on its own —
 is every name it uses defined or explained in this reply?
