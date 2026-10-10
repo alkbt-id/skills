@@ -30,8 +30,24 @@ as your default in `~/.claude/settings.json`:
 
 Only one output style is active at a time, so this replaces any other style you use.
 
-To get updates automatically: `/plugin` → Marketplaces → `alkbt-skills` → Enable auto-update.
-To update by hand: `/plugin marketplace update alkbt-skills`.
+## Updates
+
+Auto-update is off by default for this marketplace. Turn it on in `/plugin` →
+Marketplaces → `alkbt-skills` → Enable auto-update, or in `~/.claude/settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "alkbt-skills": {
+      "source": { "source": "github", "repo": "alkbt-id/skills" },
+      "autoUpdate": true
+    }
+  }
+}
+```
+
+Then new versions arrive when a session starts. Without auto-update, run
+`/plugin marketplace update alkbt-skills` to get them.
 
 ## License
 

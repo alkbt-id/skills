@@ -29,6 +29,25 @@ and choose `adhd-mode:adhd-mode`. Or make it your default in `~/.claude/settings
 
 Only one output style is active at a time, so this replaces any other style you use.
 
+## Updates
+
+Auto-update is off by default for this marketplace. Turn it on in `/plugin` →
+Marketplaces → `alkbt-skills` → Enable auto-update, or in `~/.claude/settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "alkbt-skills": {
+      "source": { "source": "github", "repo": "alkbt-id/skills" },
+      "autoUpdate": true
+    }
+  }
+}
+```
+
+Then new versions arrive when a session starts. Without auto-update, run
+`/plugin marketplace update alkbt-skills` to get them.
+
 ## What changes
 
 - The first line is the result or the decision needed from you.
