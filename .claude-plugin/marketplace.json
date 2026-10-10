@@ -1,0 +1,14 @@
+{
+  "name": "alkbt-skills",
+  "description": "Claude Code plugins by alkbt-id",
+  "owner": {
+    "name": "alkbt-id"
+  },
+  "plugins": [
+    {
+      "name": "adhd-mode",
+      "source": "./plugins/adhd-mode",
+      "description": "Output style for readers who lose focus fast: result on the first line, one idea per message, context before any question, no preambles or recaps."
+    }
+  ]
+}

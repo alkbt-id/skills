@@ -1,0 +1,8 @@
+{
+  "name": "adhd-mode",
+  "description": "Output style for readers who lose focus fast: result on the first line, one idea per message, context before any question, no preambles or recaps.",
+  "author": {
+    "name": "alkbt-id"
+  },
+  "license": "MIT"
+}
