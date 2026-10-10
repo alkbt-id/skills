@@ -1,8 +1,11 @@
 {
   "name": "adhd-mode",
-  "description": "Output style for readers who lose focus fast: result on the first line, one idea per message, context before any question, no preambles or recaps. To turn it on after install: /output-style → adhd-mode:adhd-mode, or \"outputStyle\": \"adhd-mode:adhd-mode\" in ~/.claude/settings.json.",
+  "displayName": "ADHD mode",
+  "description": "Replies for readers who lose focus fast: result first, one idea per message, no preambles or recaps. Turn on: /output-style → adhd-mode:adhd-mode",
   "author": {
     "name": "alkbt-id"
   },
+  "homepage": "https://github.com/alkbt-id/skills/tree/main/plugins/adhd-mode",
+  "repository": "https://github.com/alkbt-id/skills",
   "license": "MIT"
 }

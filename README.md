@@ -16,8 +16,7 @@ A Claude Code plugin marketplace.
 In Claude Code:
 
 ```
-/plugin marketplace add alkbt-id/skills
-/plugin install adhd-mode@alkbt-skills
+/plugin install adhd-mode --marketplace alkbt-id/skills
 ```
 
 Then turn the style on: run `/output-style` and pick `adhd-mode:adhd-mode`, or set it
