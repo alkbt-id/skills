@@ -11,6 +11,9 @@ In a Claude Code session:
 /plugin install adhd-mode --marketplace alkbt-id/skills
 ```
 
+To get new versions automatically, turn on auto-update — see
+[Updates](../../README.md#updates).
+
 ## Turn it on
 
 After installing, pick the style:
@@ -29,25 +32,6 @@ and choose `adhd-mode:adhd-mode`. Or make it your default in `~/.claude/settings
 
 Only one output style is active at a time, so this replaces any other style you use.
 
-## Updates
-
-Auto-update is off by default for this marketplace. Turn it on in `/plugin` →
-Marketplaces → `alkbt-skills` → Enable auto-update, or in `~/.claude/settings.json`:
-
-```json
-{
-  "extraKnownMarketplaces": {
-    "alkbt-skills": {
-      "source": { "source": "github", "repo": "alkbt-id/skills" },
-      "autoUpdate": true
-    }
-  }
-}
-```
-
-Then new versions arrive when a session starts. Without auto-update, run
-`/plugin marketplace update alkbt-skills` to get them.
-
 ## What changes
 
 - The first line is the result or the decision needed from you.
@@ -57,3 +41,8 @@ Then new versions arrive when a session starts. Without auto-update, run
 - No preambles, recaps, or "let me know if anything comes up".
 
 Full rules: [output-styles/adhd-mode.md](output-styles/adhd-mode.md).
+
+## Credits
+
+Inspired by the [`i-have-adhd`](https://github.com/pydantic/pydantic-ai/blob/main/.agents/skills/i-have-adhd/SKILL.md)
+skill from pydantic-ai.
